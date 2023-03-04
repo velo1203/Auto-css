@@ -1,0 +1,104 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  padding: 10px 0;
+}
+
+.option {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option:hover {
+  color: #f2f2f2;
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  animation: neumorphism 0.3s ease-in-out;
+}
+
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.chat {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  animation: neumorphism 0.3s ease-in-out;
+}
+
+.chat-botton {
+  padding: 10px;
+  width: 20%;
+  background-color: #2d2d2d;
+  color: #f2f2f2;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  animation: neumorphism 0.3s ease-in-out;
+}
+
+.chat-botton:hover {
+  background-color: #f2f2f2;
+  color: #2d2d2d;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: #f2f2f2;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #2d2d2d;
+  letter-spacing: 0.1rem;
+}
+
+@keyframes neumorphism {
+  0% {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+}
